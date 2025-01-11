@@ -17,4 +17,4 @@ spec:
         namespace: flux-system
       interval: 1m
   values:
-    domain: "vaultwarden.jonathanschaeffer.com"
+    domain: "http://vaultwarden.jonathanschaeffer.com"
