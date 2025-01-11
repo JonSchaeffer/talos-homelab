@@ -5,7 +5,7 @@ metadata:
 spec:
   defaultBackend:
     service:
-      name: valutwarden
+      name: vaultwarden
       port:
         number: 80
   ingressClassName: tailscale
