@@ -16,13 +16,13 @@ spec:
         namespace: flux-system
       interval: 1m
   values:
----
-apiVersion: postgresql.cnpg.io/v1
-kind: Cluster
-metadata:
-  name: postgresql
-  namespace: homelab
-spec:
-  instances: 3
-  storage:
-    size: 5Gi
+# ---
+# apiVersion: postgresql.cnpg.io/v1
+# kind: Cluster
+# metadata:
+#   name: postgresql
+#   namespace: homelab
+# spec:
+#   instances: 3
+#   storage:
+#     size: 5Gi
