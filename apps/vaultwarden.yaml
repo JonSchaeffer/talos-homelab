@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: vaultwarden
-  namespace:
+  namespace: homelab
 spec:
   interval: 1m
   chart:
@@ -10,7 +10,6 @@ spec:
       chart: vaultwarden
       reconcileStrategy: Revision
       targetNamespace: homelab
-      createNamespace: true
       #version: "0.1.0"
       sourceRef:
         kind: HelmRepository
