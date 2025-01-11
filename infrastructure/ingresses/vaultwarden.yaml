@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: vaultwarden
   namespace: homelab
+  annotations:
+    tailscale.com/funnel: "true"
 spec:
   defaultBackend:
     service:
