@@ -22,7 +22,7 @@ kind: Cluster
 metadata:
   name: postgresql
   namespace: homelab
-  spec:
-    instances: 3
-    storage:
-      size: 5Gi
+spec:
+  instances: 3
+  storage:
+    size: 5Gi
