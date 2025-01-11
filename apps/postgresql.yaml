@@ -24,6 +24,5 @@ metadata:
   namespace: homelab
   spec:
     instances: 3
-
     storage:
       size: 5Gi
