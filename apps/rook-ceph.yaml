@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: rook-release/rook-ceph
+      chart: rook-ceph
       reconcileStrategy: Revision
       #version: "0.1.0"
       sourceRef:
