@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      targetNamespace: homelab
+      #targetNamespace: homelab
       chart: vaultwarden
       reconcileStrategy: Revision
       #version: "0.1.0"
