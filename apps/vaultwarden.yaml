@@ -9,7 +9,6 @@ spec:
     spec:
       chart: vaultwarden
       reconcileStrategy: Revision
-      targetNamespace: homelab
       #version: "0.1.0"
       sourceRef:
         kind: HelmRepository
