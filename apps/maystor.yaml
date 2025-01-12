@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: mayastor/mayastor
+      chart: mayastor
       reconcileStrategy: Revision
       version: "2.5.0"
       sourceRef:
